@@ -1,0 +1,23 @@
+.product-img{
+    width:100%;
+    height:350px;
+}
+.product-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.product-info button{
+    border-radius:25px;
+    width:300px;
+    padding:10px 20px;
+    color:#fff;
+    border:none;
+    margin-right:10px;
+}
+#buynow{
+    background-color: #FF8F00;
+}
+#addtocart{
+    background-color: #F7CA00;
+}

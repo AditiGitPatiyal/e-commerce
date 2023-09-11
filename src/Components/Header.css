@@ -1,0 +1,32 @@
+.navbar-brand {
+    width:180px;
+}
+.navbar-brand img{
+    width:100%;
+}
+.nav-link{
+    font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color:green !important;
+}
+.cart {
+    position:relative;;
+}
+.cart i{
+    color:#FF8F00;
+    font-size:40px;
+}
+.cart .num{
+    position:absolute;
+    border-radius:50%;
+    text-align:center;
+    padding-top:2px;
+    background-color:chocolate;
+    color:white;
+    font-size:12px;
+    height:1.5em;
+    width:1.5em;
+    right:0;
+    top:0;
+}
