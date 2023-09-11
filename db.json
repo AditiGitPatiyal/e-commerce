@@ -6,7 +6,7 @@
       "description": "A timeless white dress shirt for men, perfect for formal occasions.",
       "price": 39.99,
       "color": "White",
-      "id": "MEN001",
+      "id": 1,
       "material": "100% Cotton",
       "image_link": "./images/classic-mens-white-shirt.avif"
     },
@@ -16,7 +16,7 @@
       "description": "A vibrant floral sundress for women, ideal for summer outings.",
       "price": 49.99,
       "color": "Pink Floral",
-      "id": "WOMEN001",
+      "id": 2,
       "material": "Polyester",
       "image_link": "https://img3.junaroad.com/uiproducts/18736066/zoom_0-1687936939.jpg"
     },
@@ -26,7 +26,7 @@
       "description": "A cute and comfortable T-shirt for kids featuring their favorite cartoon character.",
       "price": 14.99,
       "color": "Blue",
-      "id": "KIDS001",
+      "id": 3,
       "material": "100% Cotton",
       "image_link": "https://m.media-amazon.com/images/I/71IFpWgVtiL._UX679_.jpg"
     },
@@ -36,7 +36,7 @@
       "description": "Stylish and comfortable slim-fit jeans for men.",
       "price": 59.99,
       "color": "Dark Blue",
-      "id": "MEN002",
+      "id": 4,
       "material": "Denim",
       "image_link": "https://imagescdn.louisphilippe.com/img/app/product/7/734511-8189124.jpg?q=75&auto=format&w=342"
     },
@@ -46,7 +46,7 @@
       "description": "High-performance running shoes for women with cushioned soles.",
       "price": 79.99,
       "color": "Black/Pink",
-      "id": "WOMEN002",
+      "id": 5,
       "material": "Mesh and Rubber",
       "image_link": "data:image/jpeg;base64,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"
     },
@@ -56,7 +56,7 @@
       "description": "A classic wool blend peacoat for men to stay warm in style.",
       "price": 129.99,
       "color": "Charcoal Gray",
-      "id": "MEN003",
+      "id": 6,
       "material": "Wool Blend",
       "image_link": "https://m.media-amazon.com/images/I/71xpxsS6xZL.jpg"
     },  
@@ -66,7 +66,7 @@
       "description": "Elegant leather handbag for women, perfect for any occasion.",
       "price": 89.99,
       "color": "Black",
-      "id": "WOMEN003",
+      "id": 7,
       "material": "Leather",
       "image_link": "https://www.bringitonline.in/uploads/2/2/4/5/22456530/tote-bag-photography-handbag-photography-handbag-photography-ideas-bag-photoshoot-poses-handbag-product-photography-bringitonline-in_orig.jpg"
     },
@@ -76,7 +76,7 @@
       "description": "A comfortable and durable school uniform shirt for boys.",
       "price": 24.99,
       "color": "White",
-      "id": "KIDS002",
+      "id": 8,
       "material": "Cotton-Polyester Blend",
       "image_link": "https://asset1.cxnmarksandspencer.com/is/image/mands/3pk-Boys--Easy-Iron-School-Shirts--2-16-Yrs-/SD_04_T76_5812_Z0_X_EC_90?%24PDP_IMAGEGRID%24=&wid=768&qlt=80"
     },
@@ -86,7 +86,7 @@
       "description": "Stretchy and breathable yoga leggings for women.",
       "price": 29.99,
       "color": "Black",
-      "id": "WOMEN004",
+      "id": 9,
       "material": "Spandex-Polyestr Blend",
       "image_link": "https://www.elawear.com/cdn/shop/products/AKV_1354-Edit_8acc1e5c-ef3e-4469-9cff-aecb1de5ffbb_800x.jpg?v=1673771842"
     },
@@ -96,12 +96,12 @@
       "description": "Adorable set of baby onesies for infants.",
       "price": 19.99,
       "color": "Assorted",
-      "id": "KIDS003",
+      "id": 10,
       "material": "100% Cotton",
       "image_link": "https://m.media-amazon.com/images/I/61k-7wDEdtL._UX679_.jpg"
     },
     {
-      "id": 6,
+      "id": 11,
       "product_name": "Kids' Hooded Sweatshirt",
       "description": "Warm hooded sweatshirt for kids.",
       "price": 24.99,
@@ -111,7 +111,7 @@
       "image_link": "https://m.media-amazon.com/images/I/712hmt54p3L._AC_SR175,263_QL70_.jpg"
     },
     {
-      "id": 5,
+      "id": 12,
       "product_name": "Women's Leather Jacket",
       "description": "Elegant leather jacket for women.",
       "price": 89.99,
@@ -121,7 +121,7 @@
       "image_link": "https://www.stylecraze.com/wp-content/uploads/product-images/decrum-leather-jacket_afl721.jpg"
     },
     {
-      "id": 1,
+      "id": 13,
       "product_name": "Men's Cotton T-Shirt",
       "description": "A comfortable cotton t-shirt for men.",
       "price": 19.99,
@@ -131,7 +131,7 @@
       "image_link": "https://thehouseofrare.com/cdn/shop/products/IMG_0003_1_6c6b5b02-8aeb-4d0f-8a33-9f0be0d7794f_765x.jpg?v=1674811734"
     },
     {
-      "id": 3,
+      "id": 14,
       "product_name": "Kids' Cartoon Graphic T-Shirt",
       "description": "Cool cartoon graphic t-shirt for kids.",
       "price": 14.99,
@@ -141,7 +141,7 @@
       "image_link": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1687842204_9775966.jpg?format=webp&w=1080&dpr=1.3"
     },
     {
-      "id": 10,
+      "id": 15,
       "product_name": "Men's Formal Suit",
       "description": "A sharp formal suit for men.",
       "price": 129.99,
@@ -151,7 +151,7 @@
       "image_link": "https://cdn.hangrr.com/v7/s3/product/192/classic-midnight-blue-suit-multi.webp?tr=w-1200,h-1400"
     },
     {
-      "id": 9,
+      "id": 16,
       "product_name": "Kids' Plaid Shirt",
       "description": "Stylish plaid shirt for kids.",
       "price": 19.99,
